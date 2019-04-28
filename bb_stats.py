@@ -2,6 +2,8 @@
 # Bob Staten
 # 4/21/2019
 
+# a program for calculating a running batting for a single plater
+
 base_hits = []
 at_bats = []
 runs = []
@@ -12,13 +14,12 @@ def stats_j(hits,abs,rbis):
   base_hits.append(hits)
   at_bats.append(abs)
   runs.append(rbis)
-  
+
 # calculations
   tot_rbis = sum(runs)
   avg = int(round(sum(base_hits) / sum(at_bats), 3) * 1000)
-  
+
   return ('Batting avg: %s' % avg + '\n' + ' ' + 'Runs batted in: %d' % tot_rbis)
 
 # execution
-print stats_j(2,3,1)
-  
+print (stats_j(2,3,1))
