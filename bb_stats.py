@@ -30,6 +30,6 @@ print (stats_j(2,3,1))
 # here's the problem. I want to store stats in a file instead of keeping them in the code itself as below
 stats_j(0,3,1)
 stats_j(1,3,2)
-print stats_j(2,3,1)
+print (stats_j(2,3,1))
   
 >>>>>>> 71bd8f12d76135e693e6c75ca5ff0ea2deafa35a
