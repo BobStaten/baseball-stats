@@ -23,13 +23,8 @@ def stats_j(hits,abs,rbis):
   return ('Batting avg: %s' % avg + '\n' + ' ' + 'Runs batted in: %d' % tot_rbis)
 
 # execution
-<<<<<<< HEAD
-print (stats_j(2,3,1))
-=======
 # TODO create a file to store data, and use it to update average.
 # here's the problem. I want to store stats in a file instead of keeping them in the code itself as below
 stats_j(0,3,1)
 stats_j(1,3,2)
 print (stats_j(2,3,1))
-  
->>>>>>> 71bd8f12d76135e693e6c75ca5ff0ea2deafa35a
